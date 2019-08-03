@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/pages/TeamPage.scss';
+
 import Person from '../components/Person';
 
 const memberImg = 'https://randomuser.me/api/portraits/lego/0.jpg';

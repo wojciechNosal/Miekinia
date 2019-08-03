@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/pages/BUSPage.scss';
 
 import Button from '../components/Button';
 

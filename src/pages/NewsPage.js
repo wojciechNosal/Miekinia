@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/pages/NewsPage.scss';
 
 import News from '../components/News';
 

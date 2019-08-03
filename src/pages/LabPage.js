@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/pages/LabPage.scss";
 
 import Button from "../components/Button";
 

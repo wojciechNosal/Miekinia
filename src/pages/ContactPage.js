@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/pages/ContactPage.scss';
 
 import Input from '../components/Input';
 import Button from '../components/Button';

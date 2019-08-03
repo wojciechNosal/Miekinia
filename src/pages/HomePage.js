@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/pages/HomePage.scss";
 
 import Button from "../components/Button";
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components/News.scss';
+// import '../styles/components/News.scss';
 
 import Button from './Button';
 

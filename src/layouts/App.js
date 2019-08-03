@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/layouts/App.scss";
 import { BrowserRouter } from "react-router-dom";
 
 import TopBar from "./TopBar";
