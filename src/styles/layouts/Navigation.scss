@@ -1,0 +1,50 @@
+@import "../base/variables";
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  right: 0;
+  padding: 20px 120px;
+  transition: 0.3s ease;
+
+  &--change-on-scroll {
+    background-color: #29323c;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+  &__link {
+    display: block;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 1.4rem;
+    color: lighten($color-white-main, 20%);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    &.active {
+      color: yellowgreen;
+    }
+  }
+}
+
+.nav__logo {
+  height: 70px;
+  min-width: 140px;
+
+  img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+}

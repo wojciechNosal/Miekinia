@@ -1,0 +1,14 @@
+@import "../base/variables";
+@import "../base/keyframes";
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+
+  > section {
+    animation: fadeIn .4s ease;
+  }
+}

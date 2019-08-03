@@ -1,0 +1,40 @@
+@import "../base/variables";
+@import "../base/keyframes";
+@import '../base/mixins';
+
+.home-page {
+  display: flex;
+  justify-content: center;
+  max-width: 80rem;
+
+  &__name-container {
+    @include animationFadeIn();
+
+    &--in {
+      opacity: 0;
+      display: none;
+    }
+
+    h2 {
+      margin-top: 3rem;
+    }
+  }
+
+  &__btn {
+    color: red;
+  }
+}
+
+.home-page__main-content {
+  display: none;
+  opacity: 0;
+  @include animationFadeIn();
+
+  &--out {
+    opacity: 1;
+    display: block;
+  }
+  p:not(:first-of-type) {
+    margin-top: 30px;
+  }
+}

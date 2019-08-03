@@ -1,0 +1,21 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+.btn {
+  padding: 17px 40px;
+  background-color: transparent;
+  border: 1px solid $color-white-main;
+  color: $color-white-main;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 4rem;
+  transition: 0.3s ease;
+  @include animationFadeIn(0.3);
+
+  &:hover {
+    cursor: pointer;
+    background-color: $color-white-main;
+    color: $color-black-main;
+  }
+}

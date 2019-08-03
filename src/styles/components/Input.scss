@@ -1,0 +1,47 @@
+@import '../base/variables.scss';
+
+
+label {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  transition: 0.2s ease-out;
+  font-size: 1.6rem;
+}
+
+input,
+textarea {
+  color: white;
+  font-size: 1.6rem;
+  border: none;
+  line-height: 22px;
+  width: 100%;
+  background: none;
+
+  &::placeholder {
+     color: transparent;
+  }
+
+  &:not(:placeholder-shown) + label {
+     top: -22px;
+     font-size: 1.2rem;
+  }
+
+  &:focus {
+     outline: none;
+  }
+
+  &:focus + label {
+     top: -22px;
+     font-size: 1.2rem;
+  }
+
+  &:focus ~ .form__bar {
+     background: $color-blue;
+  }
+}
+
+textarea {
+  resize: none;
+  min-height: 150px;
+}

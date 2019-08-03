@@ -1,0 +1,11 @@
+.newsPage {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 190px;
+  margin-bottom: 100px;
+  
+  h1 {
+    flex-basis: 100%
+  }
+}
