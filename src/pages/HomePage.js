@@ -7,13 +7,13 @@ const mainContent = [
   'Celem Małopolskiego Centrum Odnawialnych Źródeł i Poszanowania Energii w Miękini jest udoskonalenie bazy dydaktycznej i naukowo-badawczej, co w przyszłości wpłynie na podniesienie jakości oferty edukacyjnej. Dzięki realizacji przedsięwzięcia będzie możliwe prowadzenie międzynarodowych projektów szkoleniowych dla studentów i kadry dydaktycznej z różnych stron świata.'
 ]
 
-const HomePage = () => {
-
-  const handleButtonClick = e => {
+const handleButtonClick = e => {
     const elementToChange = document.querySelectorAll('.home-page > div');
     elementToChange[0].classList.toggle('home-page__name-container--in');
     elementToChange[1].classList.toggle('home-page__main-content--out');
   }
+
+const HomePage = () => {
 
   return (
     <section className='home-page'>
@@ -35,7 +35,6 @@ const HomePage = () => {
         </p>
         <Button
           text='<-'
-          btnClass='home-page__btn'
           changeViev={handleButtonClick}
         />
       </div>

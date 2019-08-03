@@ -1,53 +1,53 @@
 import React from 'react';
 
-import Person from '../components/Person';
+import personImg from '../assets/img/persons/lego.jpg';
 
-const memberImg = 'https://randomuser.me/api/portraits/lego/0.jpg';
+import Person from '../components/Person';
 
 const team = [
   {
     name: 'prof. dr hab. inż. Wojciech Górecki',
-    img: memberImg
+    img: personImg
   },
   {
     name: 'dr inż. Anna Sowiżdżał',
-    img: memberImg
+    img: personImg
   },
   {
     name: 'mgr inż. Wojciech Luboń',
-    img: memberImg
+    img: personImg
   },
   {
     name: 'mgr inż. Jarosław Kotyza',
-    img: memberImg
+    img: personImg
   },
   {
     name: 'mgr inż. Grzegorz Pełka',
-    img: memberImg
+    img: personImg
   },
   {
     name: 'mgr inż. Paweł Jastrzębski',
-    img: memberImg
+    img: personImg
   },
   {
     name: 'mgr Dominika Dawiec',
-    img: memberImg
+    img: personImg
   },
   {
     name: 'mgr inż. Bartłomiej Ciapała',
-    img: memberImg
+    img: personImg
   },
   {
     name: 'mgr inż. Daniel Malik',
-    img: memberImg
+    img: personImg
   },
   {
     name: 'mgr inż. Elżbieta Hałaj',
-    img: memberImg
+    img: personImg
   },
   {
     name: 'mgr inż. Paulina Smaczna',
-    img: memberImg
+    img: personImg
   }
 ];
 

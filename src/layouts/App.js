@@ -23,17 +23,13 @@ class App extends React.Component {
     }
   }
 
-  handleContactForm = e=>{
-    console.log(e);
-  }
-
   render() {
     return (
       <BrowserRouter>
         <div className="app">
           <TopBar />
           <Navigation />
-          <Main form={this.handleContactForm}/>
+          <Main/>
         </div>
       </BrowserRouter>
     );

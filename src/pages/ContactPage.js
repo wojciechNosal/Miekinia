@@ -3,14 +3,23 @@ import React from 'react';
 import Input from '../components/Input';
 import Button from '../components/Button';
 
-const ContactPage = ({form}) => {
+class ContactPage extends React.Component {
+
+  handleChangeContactForm = e => {
+    console.log(e.target)
+  }
+
+  render() {
   return (
     <section className="contact">
       <div className="map">
       </div>
-      <div className="form" onChange={form}>
+      <div className="form">
         <h1 className='form__title'>Napisz do nas</h1>
-        <form className="form__form">
+        <form 
+        className="form__form"
+        onChange={this.handleChangeContactForm}
+        >
 
           <Input
           type='text'
@@ -18,8 +27,8 @@ const ContactPage = ({form}) => {
           text='Imię'
           /> 
           <Input
-          type='mail'
-          name='mail'
+          type='email'
+          name='email'
           text='e-mail'
           /> 
           <Input
@@ -33,6 +42,7 @@ const ContactPage = ({form}) => {
       </div>
     </section>
   );
+  }
 };
 
 export default ContactPage;

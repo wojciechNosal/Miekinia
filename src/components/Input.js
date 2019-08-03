@@ -1,5 +1,4 @@
 import React from 'react';
-// import '../styles/components/Input.scss'
 
 const Input = ({type, name, text}) => {
 
@@ -10,7 +9,8 @@ const Input = ({type, name, text}) => {
             <Tag type={type} 
             name={name} 
             id={name} 
-            placeholder={name}
+            placeholder=' '
+            required
             />
             <label htmlFor={name}>
                {text}

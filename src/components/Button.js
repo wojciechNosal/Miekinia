@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import "../styles/components/Button.scss";
 
 const Button = ({ text, btnClass, changeViev, href }) => {
   const Tag = href ? "a" : "button";

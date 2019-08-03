@@ -2,12 +2,12 @@
 .news-container {
   width: 40%;
   margin: 30px 20px 0;
-  padding: 20px;
-  padding-right: 30px;
+  padding: 15px;
+  padding-right: 20px;
   font-size: 1.8rem;
   border-radius: 10px;
   background-image: $background-gradient-main, $background-img-desen;
-  background-blend-mode: multiply;
+  background-blend-mode: hue;
   box-shadow: $box-shadow;
   
   &__data{
@@ -26,7 +26,7 @@
   &__img {
     display: block;
     width: 50%;
-    margin:0 10px 10px 0;
+    margin:4px 15px 0 0;
     float: left;
     border-radius: 10px;
   }
