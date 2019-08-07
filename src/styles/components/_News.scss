@@ -1,6 +1,7 @@
 
 .news-container {
   width: 40%;
+  height: 282px;
   margin: 30px 20px 0;
   padding: 15px 25px;
   font-size: 1.8rem;
@@ -23,6 +24,7 @@
 
   &__img {
     width: 50%;
+    height: 180px;
     min-width: 220px;
     margin: 4px 15px 15px 0;
     float: left;
@@ -30,11 +32,12 @@
   }
 
   &__text {
+    display: inline-block;
+    width: 47%;
     font-size: 1.4rem;
   }
 
   &__btn {
-    margin-top: 18px;
-    padding: 10px 25px;
+    margin-top: 20px;
   }
 }

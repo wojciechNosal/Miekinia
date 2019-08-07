@@ -12,11 +12,12 @@
   
   &__img {
     display: block;
+    height: 110px;
     width: 110px;
     border-radius: 50%;
     margin-right: 25px;
-    opacity: .85;
-    box-shadow: $box-shadow-big;
+    opacity: .75;
+    box-shadow: $box-shadow;
   }
 
   &__name {

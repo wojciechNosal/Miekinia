@@ -23,14 +23,13 @@ Button.propTypes = {
   btnClass: PropTypes.string,
   btnSmall: PropTypes.bool,
   changeViev: PropTypes.func,
-  href: PropTypes.bool
+  href: PropTypes.string
 };
 
 Button.defaultProps = {
   text: 'Więcej',
   btnClass: "",
   small: false,
-  href: false
 };
 
 export default Button;

@@ -10,7 +10,7 @@ const list = [
   { name: "Laboratorium", path: "/laboratory" },
   { name: "BUS OZE", path: "/BUS_OZE" },
   { name: "Spin", path: "/spin" },
-  { name: "Galeria", path: "/galery" },
+  { name: "Galeria", path: "/gallery" },
   { name: "Nasz zespół", path: "/team" },
   { name: "Kontakt", path: "/kontakt" }
 ];

@@ -29,7 +29,7 @@ const news = [
     id: 4,
     data: '31.07.2140r',
     title: 'Szanujmy energię',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et harum deserunt vel vitae odio facere alias in nostrum perferendis aut blanditiis asperiores, soluta ipsam itaque dolore ex obcaecati ut doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et harum deserunt vel vitae odio facere alias in nostrum perferendis aut blanditiis asperiores, soluta ipsam itaque dolore ex obcaecati ut doloribus.',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et harum deserunt vel vitae odio facere alias in nostrum perferendis aut blanditiis asperiores, soluta ipsam itaque dolore ex obcaecati ut doloribus.',
     img: ''
   },
 ]
@@ -41,7 +41,6 @@ const NewsPage = () => {
   ))
   return (
     <section className="newsPage">
-      {/* <h1>Aktualności</h1> */}
       {newsList}
     </section>
   );
