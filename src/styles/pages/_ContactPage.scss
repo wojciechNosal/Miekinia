@@ -7,17 +7,21 @@
 
 .map {
    width: 35rem;
-   background-image: url('./assets/img/mapa.png');
+   background-image:
+   $background-gradient-main, 
+   url('./assets/img/mapa.png');
+   background-blend-mode: overlay;
    background-position: center;
    background-size: contain;
-   background-repeat: no-repeat;
-   box-shadow: $box-shadow;
+  //  background-repeat: no-repeat;
+   box-shadow: $box-shadow-big;
    border-radius: 10px;
-   @include animationFadeIn(0.3);
+   @include animationFadeIn(.3);
 }
 
 .form {
     width: 35rem;
+    @include animationFadeIn();
 
     &__title {
        margin-bottom: 4rem;

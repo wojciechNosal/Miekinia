@@ -1,12 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Button = ({ text, btnClass, changeViev, href }) => {
+const Button = ({ text, btnClass, small, changeViev, href }) => {
+
   const Tag = href ? "a" : "button";
+  const btnSmall = small ? 'btn__small' : '';
 
   return (
     <Tag
-      className={`btn ${btnClass}`}
+      className={`btn ${btnSmall} ${btnClass}`}
       onClick={changeViev}
       href={href ? href : null}
       target={Tag === "a" ? "_blank" : null}
@@ -19,11 +21,16 @@ const Button = ({ text, btnClass, changeViev, href }) => {
 Button.propTypes = {
   text: PropTypes.string,
   btnClass: PropTypes.string,
-  changeViev: PropTypes.func
+  btnSmall: PropTypes.bool,
+  changeViev: PropTypes.func,
+  href: PropTypes.bool
 };
 
 Button.defaultProps = {
-  btnClass: ""
+  text: 'Więcej',
+  btnClass: "",
+  small: false,
+  href: false
 };
 
 export default Button;

@@ -5,3 +5,41 @@
 @mixin animationFadeIn($delay:0)  {
   animation: fadeIn .4s+$delay ease;
 }
+
+@mixin backgroundShadow($radius:10, $bg-color-oppacity:0.3) {
+  border-radius: $radius+px;
+  background-color: rgba(0, 0, 0, $bg-color-oppacity);
+  box-shadow: $box-shadow;
+}
+
+@mixin backgroundGlassEffect {
+  overflow: hidden;
+  position: relative;
+  text-shadow: $text-shadow;
+  background: inherit;
+  background-blend-mode: multiply;
+  border-radius: 10px;
+  box-shadow: $box-shadow;
+  z-index: 1;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -20px;
+    bottom: -20px;
+    left: -20px;
+    right: -20px;
+    background: inherit;
+    background-blend-mode: multiply;
+    filter: blur(15px);
+    z-index: -1;
+  }
+}
+
+@mixin defaultPage($width:80) {
+  max-width: $width + rem;
+  padding: 20px 30px;
+  @include backgroundGlassEffect;
+  @include animationFadeIn;
+}

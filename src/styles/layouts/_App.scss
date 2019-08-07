@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap&subset=latin-ext");
 
 .app {
   display: flex;
@@ -6,13 +5,12 @@
   overflow: hidden;
   @include padding();
   background-image: $background-gradient-main, $background-img-main;
-  background-blend-mode: multiply, multiply;
+  background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left top;
   background-attachment: fixed;
   min-height: 100vh;
   max-width: 1920px;
   color: $color-white-main;
-
 }

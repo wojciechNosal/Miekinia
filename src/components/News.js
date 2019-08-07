@@ -9,7 +9,9 @@ const News = ({ data, title, img, text }) => {
       <h2 className='news-container__title'>{title}</h2>
       {img ? <img className='news-container__img' src={img} alt={title} /> : null}
       <p className='news-container__text'>{text}</p>
-      <Button text='więcej' btnClass='news-container__btn'/>
+      <Button text='więcej' btnClass='news-container__btn'
+        small
+      />
     </div>
   )
 }

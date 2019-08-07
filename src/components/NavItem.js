@@ -5,7 +5,11 @@ import { NavLink } from "react-router-dom";
 
 const NavItem = ({ name, path, exact }) => {
   return (
-    <NavLink className="nav__link" to={path} exact={exact ? exact : false}>
+    <NavLink
+      className="nav__link"
+      to={path}
+      exact={exact ? exact : false}
+    >
       {name}
     </NavLink>
   );

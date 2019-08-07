@@ -1,13 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap&subset=latin-ext");
+
+$font-family-main: "Montserrat", sans-serif;
+
 @import './mixins';
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  &::after,
+  &::before {
+    box-sizing: border-box;
+  }
 }
 
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: $font-family-main;
   font-size: 10px;
 }
 
@@ -20,11 +29,13 @@ h1 {
   font-size: 4rem;
   margin-bottom: 2rem;
   letter-spacing: 1px;
+  text-shadow: $text-shadow;
 }
 
 h2 {
   font-size: 2rem;
   letter-spacing: 1px;
+  text-shadow: $text-shadow;
   @include animationFadeIn(0.1);
 }
 

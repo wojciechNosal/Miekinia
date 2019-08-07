@@ -1,19 +1,53 @@
 
 .btn {
-  padding: 17px 40px;
-  background-color: transparent;
-  border: 1px solid $color-white-main;
-  color: $color-white-main;
+  position: relative;
+  width: 186px;
+  padding: 17px 0;
+  margin-top: 3.5rem;
+  text-align: center;
+  overflow: hidden;
+  background-color: $color-green-main;
+  color: #fff;
+  border: 1px solid $color-green-main;
+  font-family: $font-family-main;
   text-transform: uppercase;
-  font-weight: 600;
-  font-size: 1.5rem;
-  margin-top: 4rem;
+  text-shadow: $text-shadow;
+  font-size: 1.2rem;
+  font-weight: 500;
   transition: 0.3s ease;
   @include animationFadeIn(0.3);
 
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: -60%;
+    height: 90px;
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.7);
+    transform: rotate(30deg);
+    filter: blur(25px);
+  }
+
   &:hover {
     cursor: pointer;
-    background-color: $color-white-main;
-    color: $color-black-main;
+
+    &::before {
+      transform:translateX(350px) rotate(40deg);
+      transition: transform .6s ease;
+    }
+  }
+}
+
+.btn__small {
+  width: 130px;
+
+  &::before {
+    left: -70%;
+  }
+
+  &:hover::before {
+    transform:translateX(270px) rotate(40deg);
   }
 }

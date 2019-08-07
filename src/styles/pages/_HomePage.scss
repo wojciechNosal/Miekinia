@@ -3,6 +3,9 @@
   display: flex;
   justify-content: center;
   max-width: 80rem;
+  background: inherit;
+  background-blend-mode: inherit;
+  border-radius: 10px;
 
   &__name-container {
     @include animationFadeIn();
@@ -16,13 +19,17 @@
       margin-top: 3rem;
     }
   }
+
+  &__btn {
+    margin-top: 5rem;
+  }
 }
 
 .home-page__main-content {
   display: none;
   opacity: 0;
-  @include animationFadeIn();
-
+  @include defaultPage;
+  
   &--out {
     opacity: 1;
     display: block;

@@ -6,11 +6,12 @@
   top: 40px;
   left: 0;
   right: 0;
-  padding: 20px 120px;
+  @include padding(20,120);
   transition: 0.3s ease;
+  z-index: 20;
 
   &--change-on-scroll {
-    background-color: #29323c;
+    @include backgroundShadow(0, 0.7);
   }
 
   &__list {
@@ -20,21 +21,8 @@
     list-style: none;
   }
 
-  &__link {
-    display: block;
-    text-decoration: none;
-    padding: 15px 25px;
-    font-size: 1.4rem;
-    color: lighten($color-white-main, 20%);
-    transition: transform 0.3s ease;
-
-    &:hover {
-      transform: translateY(-5px);
-    }
-
-    &.active {
-      color: yellowgreen;
-    }
+  &__item {
+    padding: 5px;
   }
 }
 

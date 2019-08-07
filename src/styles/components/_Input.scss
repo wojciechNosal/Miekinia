@@ -9,6 +9,7 @@ label {
 
 input,
 textarea {
+  font-family: $font-family-main;
   color: white;
   font-size: 1.6rem;
   border: none;
@@ -35,7 +36,7 @@ textarea {
   }
 
   &:focus ~ .form__bar {
-     background: $color-blue;
+     background: $color-blue-dark;
   }
 }
 
