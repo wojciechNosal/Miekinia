@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9eefeb6dbfada062aebcfe42370f57a0",
+    "revision": "39411b48069f8eac4ddd84bc6df9d8d5",
     "url": "/Miekinia/index.html"
   },
   {
-    "revision": "92941fcdce5a5776b7af",
-    "url": "/Miekinia/static/css/main.19d6aec5.chunk.css"
+    "revision": "4028b8c9ce1be5dc56d8",
+    "url": "/Miekinia/static/css/main.174430a1.chunk.css"
   },
   {
     "revision": "ca491a73750f3e2af727",
     "url": "/Miekinia/static/js/2.824a7f97.chunk.js"
   },
   {
-    "revision": "92941fcdce5a5776b7af",
+    "revision": "4028b8c9ce1be5dc56d8",
     "url": "/Miekinia/static/js/main.1685583e.chunk.js"
   },
   {
