@@ -2,7 +2,7 @@ import React from "react";
 
 import NavItem from "../components/NavItem";
 
-import logo from "../assets/img/logo-miekinia.png";
+import logo from "../assets/img/logo-miekinia-min.png";
 
 const list = [
   { name: "Centrum", path: "/", exact: true },

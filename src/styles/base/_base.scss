@@ -15,9 +15,12 @@ $font-family-main: "Montserrat", sans-serif;
   }
 }
 
-html {
+html,
+body {
   font-family: $font-family-main;
   font-size: 10px;
+  @include maxWidth;
+  background-color: #6a7177;
 }
 
 a {

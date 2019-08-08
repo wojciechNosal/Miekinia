@@ -1,3 +1,9 @@
+
+@mixin maxWidth {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 @mixin padding($top-bott:0, $right-left:120) {
   padding: $top-bott+px $right-left+px;
   }

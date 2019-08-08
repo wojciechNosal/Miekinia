@@ -6,6 +6,7 @@
   top: 40px;
   left: 0;
   right: 0;
+  @include maxWidth;
   @include padding(20,120);
   transition: 0.3s ease;
   z-index: 20;
