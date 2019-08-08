@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Miekinia/static/css/main.174430a1.chunk.css",
+    "main.css": "/Miekinia/static/css/main.0baae259.chunk.css",
     "main.js": "/Miekinia/static/js/main.99f1ffe4.chunk.js",
     "main.js.map": "/Miekinia/static/js/main.99f1ffe4.chunk.js.map",
     "runtime~main.js": "/Miekinia/static/js/runtime~main.49d8c978.js",
@@ -8,9 +8,9 @@
     "static/js/2.824a7f97.chunk.js": "/Miekinia/static/js/2.824a7f97.chunk.js",
     "static/js/2.824a7f97.chunk.js.map": "/Miekinia/static/js/2.824a7f97.chunk.js.map",
     "index.html": "/Miekinia/index.html",
-    "precache-manifest.87b425ef362ae1d2bb0ace102bb7b8ee.js": "/Miekinia/precache-manifest.87b425ef362ae1d2bb0ace102bb7b8ee.js",
+    "precache-manifest.3c18c2eea12f0678ee7e6bfc13f3ef8c.js": "/Miekinia/precache-manifest.3c18c2eea12f0678ee7e6bfc13f3ef8c.js",
     "service-worker.js": "/Miekinia/service-worker.js",
-    "static/css/main.174430a1.chunk.css.map": "/Miekinia/static/css/main.174430a1.chunk.css.map",
+    "static/css/main.0baae259.chunk.css.map": "/Miekinia/static/css/main.0baae259.chunk.css.map",
     "static/media/after-1-min.jpg": "/Miekinia/static/media/after-1-min.28bceaf2.jpg",
     "static/media/before-1-min.jpg": "/Miekinia/static/media/before-1-min.9c6597a7.jpg",
     "static/media/default-img-min.jpg": "/Miekinia/static/media/default-img-min.86560071.jpg",

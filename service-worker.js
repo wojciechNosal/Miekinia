@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Miekinia/precache-manifest.87b425ef362ae1d2bb0ace102bb7b8ee.js"
+  "/Miekinia/precache-manifest.3c18c2eea12f0678ee7e6bfc13f3ef8c.js"
 );
 
 self.addEventListener('message', (event) => {
