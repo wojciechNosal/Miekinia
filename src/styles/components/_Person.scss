@@ -3,7 +3,6 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 450px;
   padding: 10px 20px 10px 10px;
   margin: 30px 20px 0;
   font-size: 1.2rem;
@@ -20,8 +19,12 @@
     box-shadow: $box-shadow;
   }
 
+  &__description {
+    width: 250px;
+  }
+
   &__name {
-    display: block;
+    width: 90%;
     margin-bottom: 10px;
     font-size: 1.6rem;
     color: $color-blue;

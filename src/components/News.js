@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import defaultImg from '../assets/img/news/default-img.jpg';
+import defaultImg from '../assets/img/news/default-img-min.jpg';
 
 import Button from './Button';
 

@@ -2,9 +2,9 @@ import React from 'react';
 
 import Button from '../components/Button';
 
-import before1 from '../assets/img/gallery/before/before-1.jpg';
-import now1 from '../assets/img/gallery/now/now-1.jpg';
-import after1 from '../assets/img/gallery/after/after-1.jpg';
+import before1 from '../assets/img/gallery/before/before-1-min.jpg';
+import now1 from '../assets/img/gallery/now/now-1-min.jpg';
+import after1 from '../assets/img/gallery/after/after-1-min.jpg';
 
 const Element = ({ src, text }) => {
    return (
