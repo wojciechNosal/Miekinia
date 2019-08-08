@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Miekinia/static/css/main.174430a1.chunk.css",
-    "main.js": "/Miekinia/static/js/main.1685583e.chunk.js",
-    "main.js.map": "/Miekinia/static/js/main.1685583e.chunk.js.map",
+    "main.js": "/Miekinia/static/js/main.99f1ffe4.chunk.js",
+    "main.js.map": "/Miekinia/static/js/main.99f1ffe4.chunk.js.map",
     "runtime~main.js": "/Miekinia/static/js/runtime~main.49d8c978.js",
     "runtime~main.js.map": "/Miekinia/static/js/runtime~main.49d8c978.js.map",
     "static/js/2.824a7f97.chunk.js": "/Miekinia/static/js/2.824a7f97.chunk.js",
     "static/js/2.824a7f97.chunk.js.map": "/Miekinia/static/js/2.824a7f97.chunk.js.map",
     "index.html": "/Miekinia/index.html",
-    "precache-manifest.090cbf19f703767cba49618eb1e0ffce.js": "/Miekinia/precache-manifest.090cbf19f703767cba49618eb1e0ffce.js",
+    "precache-manifest.87b425ef362ae1d2bb0ace102bb7b8ee.js": "/Miekinia/precache-manifest.87b425ef362ae1d2bb0ace102bb7b8ee.js",
     "service-worker.js": "/Miekinia/service-worker.js",
     "static/css/main.174430a1.chunk.css.map": "/Miekinia/static/css/main.174430a1.chunk.css.map",
-    "static/media/after-1.jpg": "/Miekinia/static/media/after-1.e5f349ad.jpg",
-    "static/media/before-1.jpg": "/Miekinia/static/media/before-1.c692dc35.jpg",
-    "static/media/default-img.jpg": "/Miekinia/static/media/default-img.95b423af.jpg",
+    "static/media/after-1-min.jpg": "/Miekinia/static/media/after-1-min.28bceaf2.jpg",
+    "static/media/before-1-min.jpg": "/Miekinia/static/media/before-1-min.9c6597a7.jpg",
+    "static/media/default-img-min.jpg": "/Miekinia/static/media/default-img-min.86560071.jpg",
     "static/media/lego.jpg": "/Miekinia/static/media/lego.5e56f6df.jpg",
     "static/media/logo-miekinia-min.png": "/Miekinia/static/media/logo-miekinia-min.a16a97fc.png",
     "static/media/index.scss": "/Miekinia/static/media/miekinia-base-min.0afc36c0.jpg",
-    "static/media/now-1.jpg": "/Miekinia/static/media/now-1.0041f013.jpg"
+    "static/media/now-1-min.jpg": "/Miekinia/static/media/now-1-min.aa381dab.jpg"
   }
 }

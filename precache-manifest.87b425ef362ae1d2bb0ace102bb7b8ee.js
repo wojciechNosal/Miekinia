@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "39411b48069f8eac4ddd84bc6df9d8d5",
+    "revision": "fed89b818e4195cedd6c7cf0ccd3211e",
     "url": "/Miekinia/index.html"
   },
   {
-    "revision": "4028b8c9ce1be5dc56d8",
+    "revision": "98b53a6b1457adec4288",
     "url": "/Miekinia/static/css/main.174430a1.chunk.css"
   },
   {
@@ -12,24 +12,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Miekinia/static/js/2.824a7f97.chunk.js"
   },
   {
-    "revision": "4028b8c9ce1be5dc56d8",
-    "url": "/Miekinia/static/js/main.1685583e.chunk.js"
+    "revision": "98b53a6b1457adec4288",
+    "url": "/Miekinia/static/js/main.99f1ffe4.chunk.js"
   },
   {
     "revision": "00af7ae0df41df50f7d4",
     "url": "/Miekinia/static/js/runtime~main.49d8c978.js"
   },
   {
-    "revision": "e5f349ade1b974660f24801cea244f8f",
-    "url": "/Miekinia/static/media/after-1.e5f349ad.jpg"
+    "revision": "28bceaf26c26ba5fca15dfa2882656ec",
+    "url": "/Miekinia/static/media/after-1-min.28bceaf2.jpg"
   },
   {
-    "revision": "c692dc358a66493fe937a9843c403474",
-    "url": "/Miekinia/static/media/before-1.c692dc35.jpg"
+    "revision": "9c6597a789d93e502acba1ba2ccc1526",
+    "url": "/Miekinia/static/media/before-1-min.9c6597a7.jpg"
   },
   {
-    "revision": "95b423af6dd2d42c789cf1c636e417c8",
-    "url": "/Miekinia/static/media/default-img.95b423af.jpg"
+    "revision": "86560071646d05aa785ed1b53e4ef3ef",
+    "url": "/Miekinia/static/media/default-img-min.86560071.jpg"
   },
   {
     "revision": "5e56f6df12998117589064a39aaf4d39",
@@ -48,7 +48,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Miekinia/static/media/miekinia-base-min.0afc36c0.jpg"
   },
   {
-    "revision": "0041f0132ae66bb3aa72c7ddbb34741e",
-    "url": "/Miekinia/static/media/now-1.0041f013.jpg"
+    "revision": "aa381dab9747a282bde9dca570d7cb7b",
+    "url": "/Miekinia/static/media/now-1-min.aa381dab.jpg"
   }
 ]);
