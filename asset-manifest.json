@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Miekinia/static/css/main.669e8b61.chunk.css",
+    "main.js": "/Miekinia/static/js/main.848fb96c.chunk.js",
+    "main.js.map": "/Miekinia/static/js/main.848fb96c.chunk.js.map",
+    "runtime~main.js": "/Miekinia/static/js/runtime~main.49d8c978.js",
+    "runtime~main.js.map": "/Miekinia/static/js/runtime~main.49d8c978.js.map",
+    "static/js/2.824a7f97.chunk.js": "/Miekinia/static/js/2.824a7f97.chunk.js",
+    "static/js/2.824a7f97.chunk.js.map": "/Miekinia/static/js/2.824a7f97.chunk.js.map",
+    "index.html": "/Miekinia/index.html",
+    "precache-manifest.d3374b458f8b7d918ebe0d017476999c.js": "/Miekinia/precache-manifest.d3374b458f8b7d918ebe0d017476999c.js",
+    "service-worker.js": "/Miekinia/service-worker.js",
+    "static/css/main.669e8b61.chunk.css.map": "/Miekinia/static/css/main.669e8b61.chunk.css.map",
+    "static/media/after-1.jpg": "/Miekinia/static/media/after-1.e5f349ad.jpg",
+    "static/media/before-1.jpg": "/Miekinia/static/media/before-1.c692dc35.jpg",
+    "static/media/default-img.jpg": "/Miekinia/static/media/default-img.95b423af.jpg",
+    "static/media/lego.jpg": "/Miekinia/static/media/lego.5e56f6df.jpg",
+    "static/media/logo-miekinia.png": "/Miekinia/static/media/logo-miekinia.c9e934c2.png",
+    "static/media/index.scss": "/Miekinia/static/media/miekinia-base.436b1f52.jpg",
+    "static/media/now-1.jpg": "/Miekinia/static/media/now-1.0041f013.jpg"
+  }
+}
