@@ -25,11 +25,11 @@ class App extends React.Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className="app">
           <TopBar />
           <Navigation />
-          <Main/>
+          <Main />
         </div>
       </BrowserRouter>
     );
