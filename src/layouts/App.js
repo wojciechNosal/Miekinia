@@ -16,10 +16,13 @@ class App extends React.Component {
 
   handleScroll() {
     const nav = document.querySelector(".nav");
+    const topBar = document.querySelector('.topBar');
     if (this.scrollY > 0) {
       nav.classList.add("nav--change-on-scroll");
+      topBar.classList.add('topBar--change-on-scroll');
     } else {
       nav.classList.remove("nav--change-on-scroll");
+      topBar.classList.remove('topBar--change-on-scroll');
     }
   }
 

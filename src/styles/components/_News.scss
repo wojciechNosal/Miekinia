@@ -1,39 +1,60 @@
 
 .news-container {
+  display: flex;
+  flex-wrap: wrap;
   width: 40%;
-  height: 282px;
+  min-width: 710px;
   margin: 30px 20px 0;
   padding: 15px 25px;
   font-size: 1.8rem;
-  border-radius: 10px;
   @include backgroundGlassEffect;
   @include animationFadeIn;
+
+  @media (max-width: 850px) {
+    width: 70%;
+    min-width: 320px;
+  }
   
   &__data{
+    flex-basis: 100%;
     font-size: 1.4rem;
     margin-bottom: 3px;
     letter-spacing: 2px;
   }
 
   &__title{
-    display: block;
+    flex-basis: 100%;
     margin-bottom: 10px;
     font-size: 1.6rem;
     color: $color-blue;
   }
 
   &__img {
-    width: 50%;
-    height: 180px;
-    min-width: 220px;
-    margin: 4px 15px 15px 0;
-    float: left;
+    flex-basis: 40%;
+    height: 150px;
+    object-fit: cover;
+    margin: 4px 15px 15px 0; 
     border-radius: 10px;
+
+    @media (max-width: 850px){
+      flex-basis: 100%;
+      margin: 0;
+    }
+  }
+
+  &__text-wrapper {
+    flex-basis: 55%;
+    padding: 8px 0 8px 8px;
+
+    @media (max-width: 850px) {
+      flex-basis: 100%;
+      margin-top: 15px;
+      padding: 0;
+    }
   }
 
   &__text {
-    display: inline-block;
-    width: 47%;
+    width: 100%;
     font-size: 1.4rem;
   }
 

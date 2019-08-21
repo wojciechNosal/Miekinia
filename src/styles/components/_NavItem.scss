@@ -1,4 +1,19 @@
 
+
+.nav__item {
+  padding: 5px;
+
+  @media (max-width: 1350px) {
+    margin-bottom: 15px;
+    opacity: 0;
+  }
+
+  &--fadeIn {
+    @include animationFadeIn;
+    animation-fill-mode: both;
+  }
+}
+
 .nav__link {
   position: relative;
   padding: 15px;
@@ -9,6 +24,11 @@
   text-shadow: $text-shadow;
   text-transform: uppercase;
   transition:  0.3s ease;
+
+  @media (max-width:1350px) {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
 
   &::before {
     content: '';
@@ -22,6 +42,10 @@
     background-color: $color-blue-dark;
     box-shadow: $box-shadow;
     transition: 0.3s ease;
+
+    @media (max-width:1350px) {
+      top: 36px;
+    }
   }
   
     &:hover,

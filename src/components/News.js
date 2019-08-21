@@ -11,10 +11,12 @@ const News = ({ data, title, img, text }) => {
       <p className='news-container__data'>{data}</p>
       <h2 className='news-container__title'>{title}</h2>
       <img className='news-container__img' src={img ? img : defaultImg} alt={title} />
-      <p className='news-container__text'>{text}</p>
-      <Button text='więcej' btnClass='news-container__btn'
-        small
-      />
+      <div className="news-container__text-wrapper">
+        <p className='news-container__text'>{text}</p>
+        <Button text='więcej' btnClass='news-container__btn'
+          small
+        />
+      </div>
     </div>
   )
 }

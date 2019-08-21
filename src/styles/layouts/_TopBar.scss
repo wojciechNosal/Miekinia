@@ -15,6 +15,10 @@
   font-size: 1.5rem;
   z-index: 20;
 
+  &--change-on-scroll {
+    box-shadow: none;
+  }
+
   p {
     font-size: 1.4rem;
     margin-right: 20px;
