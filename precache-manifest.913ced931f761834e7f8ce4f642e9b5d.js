@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "23cd6cde33033f39c89effc868bcb63b",
+    "revision": "f191d892c5fdbe26bc3c0b41d00314d0",
     "url": "/Miekinia/index.html"
   },
   {
-    "revision": "694a9ed4190027ee7e3d",
-    "url": "/Miekinia/static/css/main.0baae259.chunk.css"
+    "revision": "8c27f5ba91401bbfeb97",
+    "url": "/Miekinia/static/css/main.8aa8d8b4.chunk.css"
   },
   {
     "revision": "ca491a73750f3e2af727",
     "url": "/Miekinia/static/js/2.824a7f97.chunk.js"
   },
   {
-    "revision": "694a9ed4190027ee7e3d",
-    "url": "/Miekinia/static/js/main.99f1ffe4.chunk.js"
+    "revision": "8c27f5ba91401bbfeb97",
+    "url": "/Miekinia/static/js/main.e08df993.chunk.js"
   },
   {
     "revision": "00af7ae0df41df50f7d4",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Miekinia/static/media/lego.5e56f6df.jpg"
   },
   {
-    "revision": "a16a97fc7408008644159ec218174d85",
-    "url": "/Miekinia/static/media/logo-miekinia-min.a16a97fc.png"
+    "revision": "a3efd472552af42dcc5dadcdcc872d56",
+    "url": "/Miekinia/static/media/logo-miekinia-light.a3efd472.png"
   },
   {
     "revision": "68c0f1edef039374918d309b6bbe19c1",
