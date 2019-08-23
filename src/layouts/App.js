@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 
-import TopBar from "./TopBar";
+import Footer from "./Footer";
 import Navigation from "./Navigation";
 import Main from "./Main";
 
@@ -15,14 +15,16 @@ class App extends React.Component {
   }
 
   handleScroll() {
-    const nav = document.querySelector(".nav");
-    const topBar = document.querySelector('.topBar');
+
+    const nav = document.querySelector('.nav');
+    const boxImg = nav.querySelector('.nav__img-box');
+
     if (this.scrollY > 0) {
-      nav.classList.add("nav--change-on-scroll");
-      topBar.classList.add('topBar--change-on-scroll');
+      nav.classList.add(`nav--change-on-scroll`);
+      boxImg.classList.add('nav__img-box--change-on-scroll');
     } else {
       nav.classList.remove("nav--change-on-scroll");
-      topBar.classList.remove('topBar--change-on-scroll');
+      boxImg.classList.remove('nav__img-box--change-on-scroll');
     }
   }
 
@@ -30,9 +32,9 @@ class App extends React.Component {
     return (
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className="app">
-          <TopBar />
           <Navigation />
           <Main />
+          <Footer />
         </div>
       </BrowserRouter>
     );

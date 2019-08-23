@@ -16,23 +16,32 @@ const list = [
 ];
 
 const Navigation = () => {
-  const menu = list.map(item => (
-    <li key={item.name} className="nav__item">
-      <NavItem {...item} />
-    </li>
-  ));
 
   const handelSmallScreenNav = () => {
+
+    if (window.innerWidth > 1350) return;
+
     const navList = document.querySelector('.nav__list');
     const hamburger = document.querySelector('.hamburger');
     navList.classList.toggle('nav__list--fadeInNav');
 
     navList.childNodes.forEach((item, inx) => {
-      setTimeout(() => item.classList.toggle('nav__item--fadeIn'), (inx + 1) * 100);
+      setTimeout(() => item.classList.toggle('nav__item--fadeIn'), (inx + 1) * 70);
     })
 
     hamburger.classList.toggle('hamburger--close');
+    hamburger.childNodes.forEach(item => item.classList.toggle('hamburger__bar--close'))
   }
+
+  const menu = list.map(item => (
+    <li
+      key={item.name}
+      className="nav__item"
+      onClick={handelSmallScreenNav}
+    >
+      <NavItem {...item} />
+    </li >
+  ));
 
   return (
     <nav className="nav">
@@ -45,6 +54,7 @@ const Navigation = () => {
         <div className="hamburger__bar"></div>
         <div className="hamburger__bar"></div>
       </div>
+      <div className="nav__img-box"></div>
     </nav>
   );
 };

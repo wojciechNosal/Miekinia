@@ -1,0 +1,38 @@
+
+.footer{
+  position: fixed;  
+  bottom: 0;
+  left: 0;
+  right: 0;
+  @include maxWidth;
+  color: lighten($color-white-main, 20%);
+  font-size: 1.5rem;
+  z-index: 1;
+  
+  &__img-box {
+    height: 80px;
+    background-image: url('./assets/img/footer.png');
+    background-position: top left;
+  }
+
+  &__text-content{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    @include padding();
+    background-color: $color-blue-dark;
+
+    p {
+      font-size: 1.4rem;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      text-shadow: $text-shadow;
+      @include animationFadeIn;
+    }
+  
+    p:nth-child(2) {
+      margin-right: 40px;
+    }
+  }
+
+}

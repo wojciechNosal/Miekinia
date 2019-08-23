@@ -16,7 +16,7 @@
   font-size: 1.2rem;
   font-weight: 500;
   transition: 0.3s ease;
-  @include animationFadeIn(0.3);
+  @include animationFadeIn(0.2);
 
   &::before {
     content: '';
