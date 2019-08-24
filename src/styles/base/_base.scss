@@ -20,7 +20,11 @@ body {
   font-family: $font-family-main;
   font-size: 10px;
   @include maxWidth;
-  background-color: #6a7177;
+  background-color: $color-blue-dark;
+
+  @media (max-width: $middle-screen) {
+    font-size: 9px;
+  }
 }
 
 a {
@@ -30,16 +34,19 @@ a {
 
 h1 {
   font-size: 4rem;
-  margin-bottom: 2rem;
+  line-height: 150%;
   letter-spacing: 1px;
   text-shadow: $text-shadow;
+  
+  @media (max-width: $middle-screen) {
+    font-size: 3.2rem;
+  }
 }
 
 h2 {
   font-size: 2rem;
   letter-spacing: 1px;
   text-shadow: $text-shadow;
-  @include animationFadeIn(0.1);
 }
 
 p {

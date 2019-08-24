@@ -1,5 +1,5 @@
 
-$color-green-logo: #8bc43f;
+// $color-green-logo: #8bc43f;
 $color-green-main: rgba(136, 193, 61, 0.7);
 
 $color-blue: #3f95e6;
@@ -10,9 +10,11 @@ $color-white-main: #eeeeee;
 
 $background-img-main: url("./assets/img/miekinia-base-min.jpg");
 
-$background-gradient-main: linear-gradient(to right, #b2bdc5 0%, #a0b0b6 100%);
+$background-gradient-main: linear-gradient(to right, #b2bdc5 0%, #757f83 100%);
 
 $text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 
 $box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 
+$middle-screen: 1370px;
+$small-screen: 850px;

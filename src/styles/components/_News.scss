@@ -1,18 +1,19 @@
 
 .news-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   width: 40%;
-  min-width: 710px;
+  min-width: 71rem;
   margin: 30px 20px 0;
-  padding: 15px 25px;
-  font-size: 1.8rem;
+  padding: 15px 20px;
   @include backgroundGlassEffect;
   @include animationFadeIn;
 
-  @media (max-width: 850px) {
-    width: 70%;
-    min-width: 320px;
+  @media (max-width: $middle-screen) {
+    min-width: 61rem;
+    padding: 10px 20px;
   }
   
   &__data{
@@ -30,23 +31,22 @@
   }
 
   &__img {
-    flex-basis: 40%;
-    height: 150px;
+    width: 24rem;
+    height: 15rem;
     object-fit: cover;
-    margin: 4px 15px 15px 0; 
-    border-radius: 10px;
+    border-radius: 6px;
+    box-shadow: $box-shadow;
 
-    @media (max-width: 850px){
-      flex-basis: 100%;
-      margin: 0;
+    @media (max-width: $middle-screen){
+      width: 20rem;
+      height: 12rem;
     }
   }
 
   &__text-wrapper {
-    flex-basis: 55%;
-    padding: 8px 0 8px 8px;
+    flex-basis: 60%;
 
-    @media (max-width: 850px) {
+    @media (max-width: $small-screen) {
       flex-basis: 100%;
       margin-top: 15px;
       padding: 0;
@@ -60,5 +60,9 @@
 
   &__btn {
     margin-top: 20px;
+
+    @media (max-width: $middle-screen) {
+      margin-top: 10px;
+    }
   }
 }

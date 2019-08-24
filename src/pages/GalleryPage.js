@@ -12,7 +12,7 @@ const Element = ({ src, text }) => {
          <img src={src} alt={text} className="gallery__img" />
          <div className="gallery__column">
             <p className="gallery__text">{text}</p>
-            <Button text='Galeria' btnClass='gallery__btn btn__small' />
+            <Button btnClass='gallery__btn btn__small'>Zobacz</Button>
          </div>
       </div>
    )

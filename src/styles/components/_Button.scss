@@ -1,22 +1,27 @@
 
 .btn {
   position: relative;
-  width: 186px;
+  width: 19rem;
   padding: 17px 0;
   margin-top: 3.5rem;
   text-align: center;
   overflow: hidden;
   background-color: $color-green-main;
   color: #fff;
-  border: 1px solid $color-green-main;
+  border: none;
   font-family: $font-family-main;
   text-transform: uppercase;
   text-shadow: $text-shadow;
   letter-spacing: 1px;
   font-size: 1.2rem;
   font-weight: 500;
+  cursor: pointer;
   transition: 0.3s ease;
-  @include animationFadeIn(0.2);
+  @include animationFadeIn(0.4);
+
+  @media (max-width: $middle-screen) {
+    padding: 14px 0;
+  }
 
   &::before {
     content: '';
@@ -26,13 +31,12 @@
     left: -60%;
     height: 90px;
     width: 30%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     transform: rotate(30deg);
     filter: blur(25px);
   }
 
   &:hover {
-    cursor: pointer;
 
     &::before {
       transform:translateX(350px) rotate(40deg);
@@ -42,7 +46,7 @@
 }
 
 .btn__small {
-  width: 130px;
+  width: 13rem;
   padding: 10px 25px;
 
   &::before {

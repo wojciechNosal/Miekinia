@@ -17,20 +17,19 @@ const HomePage = () => {
   return (
     <section className="home-page">
       <div className="home-page__name-container">
-        <h1>
+        <h1 className='home-page__hero-text'>
           Centrum Zrównoważonego Rozwoju<br /> i&nbsp;Poszanowania Energii
         </h1>
-        <h2>WGGiOŚ AGH</h2>
+        <h2 className='home-page__hero-text-small'>WGGiOŚ AGH</h2>
         <Button
           btnClass="home-page__btn"
-          text="Zobacz więcej"
           changeViev={handleButtonClick}
-        />
+        >Zobacz więcej</Button>
       </div>
       <div className="home-page__main-content">
-        <p>{mainContent[0]}</p>
-        <p>{mainContent[1]}</p>
-        <Button text="Wróć" changeViev={handleButtonClick} />
+        <p className='home-page__text'>{mainContent[0]}</p>
+        <p className='home-page__text'>{mainContent[1]}</p>
+        <Button changeViev={handleButtonClick}>wróć</Button>
       </div>
     </section>
   );

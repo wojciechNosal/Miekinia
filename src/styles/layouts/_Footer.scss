@@ -1,12 +1,11 @@
 
-.footer{
+.footer {
   position: fixed;  
   bottom: 0;
   left: 0;
   right: 0;
   @include maxWidth;
   color: lighten($color-white-main, 20%);
-  font-size: 1.5rem;
   z-index: 1;
   
   &__img-box {
@@ -18,20 +17,24 @@
   &__text-content{
     display: flex;
     align-items: center;
-    height: 35px;
+    height: 3.5rem;
     @include padding();
     background-color: $color-blue-dark;
 
+    @media (max-width:$middle-screen) {
+      height: 2rem;
+    }
+
     p {
       font-size: 1.4rem;
-      margin-right: 20px;
-      margin-bottom: 10px;
+      margin-right: 2rem;
+      margin-bottom: 0.8rem;
       text-shadow: $text-shadow;
       @include animationFadeIn;
     }
   
     p:nth-child(2) {
-      margin-right: 40px;
+      margin-right: 4rem;
     }
   }
 

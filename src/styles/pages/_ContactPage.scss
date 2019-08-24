@@ -12,10 +12,10 @@
    url('./assets/img/mapa.png');
    background-blend-mode: overlay;
    background-position: center;
-   background-size: contain;
-  //  background-repeat: no-repeat;
+   background-size: cover;
+   background-repeat: no-repeat;
    box-shadow: $box-shadow;
-   border-radius: 10px;
+   border-radius: 7px;
    @include animationFadeIn(.3);
 }
 
@@ -40,6 +40,10 @@
     margin: 24px 0;
     position: relative;
     flex-shrink: 0;
+
+    @media (max-width: $middle-screen) {
+      margin: 12px 0;
+    }
   }
 
   &__bar {

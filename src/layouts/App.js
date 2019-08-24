@@ -17,14 +17,11 @@ class App extends React.Component {
   handleScroll() {
 
     const nav = document.querySelector('.nav');
-    const boxImg = nav.querySelector('.nav__img-box');
 
     if (this.scrollY > 0) {
       nav.classList.add(`nav--change-on-scroll`);
-      boxImg.classList.add('nav__img-box--change-on-scroll');
     } else {
       nav.classList.remove("nav--change-on-scroll");
-      boxImg.classList.remove('nav__img-box--change-on-scroll');
     }
   }
 
