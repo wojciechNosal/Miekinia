@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "49418d97fc3ee0f28d3e2dd3735dec3b",
+    "revision": "5a0d607264cacf51a18d39001d3b1e44",
     "url": "/Miekinia/index.html"
   },
   {
-    "revision": "84e68f50cfe2f14b6d5f",
-    "url": "/Miekinia/static/css/main.2589e367.chunk.css"
+    "revision": "9ad478d6b848343532b3",
+    "url": "/Miekinia/static/css/main.b4a4eeb8.chunk.css"
   },
   {
-    "revision": "ca491a73750f3e2af727",
-    "url": "/Miekinia/static/js/2.824a7f97.chunk.js"
+    "revision": "97c4b12c0aabdbb53ca2",
+    "url": "/Miekinia/static/js/2.2538cc37.chunk.js"
   },
   {
-    "revision": "84e68f50cfe2f14b6d5f",
-    "url": "/Miekinia/static/js/main.c3de314a.chunk.js"
+    "revision": "9ad478d6b848343532b3",
+    "url": "/Miekinia/static/js/main.081447c3.chunk.js"
   },
   {
     "revision": "00af7ae0df41df50f7d4",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a3efd472552af42dcc5dadcdcc872d56",
     "url": "/Miekinia/static/media/logo-miekinia-light.a3efd472.png"
+  },
+  {
+    "revision": "a16a97fc7408008644159ec218174d85",
+    "url": "/Miekinia/static/media/logo-miekinia-min.a16a97fc.png"
   },
   {
     "revision": "68c0f1edef039374918d309b6bbe19c1",
