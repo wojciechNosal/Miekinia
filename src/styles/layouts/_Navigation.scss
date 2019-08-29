@@ -16,9 +16,8 @@ $heightSmallerNav: 7.5rem;
   z-index: 3;
 
   &--change-on-scroll {
-    background-color: $color-blue-dark;
-    height: $heightSmallerNav;
-    box-shadow: inset 0px -4px 7px 0px rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.158);
+
   }
 
   &__img-box {
@@ -68,7 +67,9 @@ $heightSmallerNav: 7.5rem;
     }
 
     &--fadeInNav {
-      transform: translateX(-100%);
+      @media (max-width: $middle-screen) {
+        transform: translateX(-100%);
+      }
     }
   }
 }

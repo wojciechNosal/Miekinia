@@ -1,46 +1,45 @@
-
 label {
-  position: absolute;
-  top: 2px;
-  left: 0;
-  transition: 0.2s ease-out;
-  font-size: 1.6rem;
+   position: absolute;
+   top: 2px;
+   left: 0;
+   transition: 0.2s ease-out;
+   font-size: 1.6rem;
 }
 
 input,
 textarea {
-  font-family: $font-family-main;
-  color: white;
-  font-size: 1.6rem;
-  border: none;
-  line-height: 22px;
-  width: 100%;
-  background: none;
+   font-family: $font-family-main;
+   color: white;
+   font-size: 1.6rem;
+   border: none;
+   line-height: 22px;
+   width: 100%;
+   background: none;
 
-  &::placeholder {
-     color: transparent;
-  }
+   &::placeholder {
+      color: transparent;
+   }
 
-  &:not(:placeholder-shown) + label {
-     top: -20px;
-     font-size: 1.2rem;
-  }
+   &:not(:placeholder-shown)+label {
+      top: -20px;
+      font-size: 1.2rem;
+   }
 
-  &:focus {
-     outline: none;
-  }
+   &:focus {
+      outline: none;
+   }
 
-  &:focus + label {
-     top: -20px;
-     font-size: 1.2rem;
-  }
+   &:focus+label {
+      top: -20px;
+      font-size: 1.2rem;
+   }
 
-  &:focus ~ .form__bar {
-     background: $color-blue-dark;
-  }
+   &:focus~.form__bar {
+      background: $color-green-logo;
+   }
 }
 
 textarea {
-  resize: none;
-  min-height: 150px;
+   resize: none;
+   min-height: 150px;
 }

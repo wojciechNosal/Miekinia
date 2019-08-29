@@ -27,7 +27,7 @@ const Navigation = () => {
 
     navList.classList.toggle('nav__list--fadeInNav');
     navListItems.forEach((item, inx) => {
-      setTimeout(() => item.classList.toggle('nav__item--fadeIn'), (inx + 1) * 60);
+      setTimeout(() => item.classList.toggle('nav__item--fadeIn'), (inx + 2) * 60);
     })
 
     hamburger.classList.toggle('hamburger--close');
