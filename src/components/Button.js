@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Button = ({ text, btnClass, small, changeViev, href }) => {
+const Button = ({ children, btnClass, small, changeViev, href }) => {
 
   const Tag = href ? "a" : "button";
   const btnSmall = small ? 'btn__small' : '';
@@ -13,13 +13,12 @@ const Button = ({ text, btnClass, small, changeViev, href }) => {
       href={href ? href : null}
       target={Tag === "a" ? "_blank" : null}
     >
-      {text}
+      {children}
     </Tag>
   );
 };
 
 Button.propTypes = {
-  text: PropTypes.string,
   btnClass: PropTypes.string,
   btnSmall: PropTypes.bool,
   changeViev: PropTypes.func,
@@ -27,7 +26,7 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  text: 'Więcej',
+  children: 'Zobacz więcej',
   btnClass: "",
   small: false,
 };

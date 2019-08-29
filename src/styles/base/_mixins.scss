@@ -7,24 +7,18 @@
 @mixin padding($top-bott:0, $right-left:120) {
   padding: $top-bott+px $right-left+px;
 
-    @media (max-width: 1350px) {
+    @media (max-width: $middle-screen) {
       padding: $top-bott+px 80px;
     }
 
-    @media (max-width: 850px) {
+    @media (max-width: $small-screen) {
       padding: $top-bott+px 40px;
     }
   }
 
-@mixin animationFadeIn($delay:0)  {
+@mixin animationFadeIn($delay:.2)  {
   animation: fadeIn .4s $delay+s ease;
   animation-fill-mode: both;
-}
-
-@mixin backgroundShadow($radius:10, $bg-color-oppacity:0.3) {
-  border-radius: $radius+px;
-  background-color: rgba(0, 0, 0, $bg-color-oppacity);
-  box-shadow: $box-shadow;
 }
 
 @mixin backgroundGlassEffect {
@@ -33,7 +27,7 @@
   text-shadow: $text-shadow;
   background: inherit;
   background-blend-mode: multiply;
-  border-radius: 10px;
+  border-radius: 7px;
   box-shadow: $box-shadow;
   z-index: 1;
 
@@ -57,4 +51,9 @@
   padding: 20px 30px;
   @include backgroundGlassEffect;
   @include animationFadeIn;
+
+    
+  &__title {
+      margin-bottom: 2rem;
+  }
 }

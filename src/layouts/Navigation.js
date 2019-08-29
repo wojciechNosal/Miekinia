@@ -19,14 +19,15 @@ const Navigation = () => {
 
   const handelSmallScreenNav = () => {
 
-    if (window.innerWidth > 1350) return;
+    if (window.innerWidth > 1370) return;
 
     const navList = document.querySelector('.nav__list');
+    const navListItems = navList.querySelectorAll('li');
     const hamburger = document.querySelector('.hamburger');
-    navList.classList.toggle('nav__list--fadeInNav');
 
-    navList.childNodes.forEach((item, inx) => {
-      setTimeout(() => item.classList.toggle('nav__item--fadeIn'), (inx + 1) * 70);
+    navList.classList.toggle('nav__list--fadeInNav');
+    navListItems.forEach((item, inx) => {
+      setTimeout(() => item.classList.toggle('nav__item--fadeIn'), (inx + 1) * 60);
     })
 
     hamburger.classList.toggle('hamburger--close');
@@ -48,13 +49,14 @@ const Navigation = () => {
       <div className="nav__logo-container">
         <img src={logo} alt="Centrum Miękinia" className='nav__logo-img' />
       </div>
-      <ul className="nav__list">{menu}</ul>
+      <ul className="nav__list">
+        {menu}
+      </ul>
       <div className="hamburger" onClick={handelSmallScreenNav}>
         <div className="hamburger__bar"></div>
         <div className="hamburger__bar"></div>
         <div className="hamburger__bar"></div>
       </div>
-      <div className="nav__img-box"></div>
     </nav>
   );
 };

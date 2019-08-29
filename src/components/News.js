@@ -13,9 +13,9 @@ const News = ({ data, title, img, text }) => {
       <img className='news-container__img' src={img ? img : defaultImg} alt={title} />
       <div className="news-container__text-wrapper">
         <p className='news-container__text'>{text}</p>
-        <Button text='więcej' btnClass='news-container__btn'
+        <Button btnClass='news-container__btn'
           small
-        />
+        >Więcej</Button>
       </div>
     </div>
   )

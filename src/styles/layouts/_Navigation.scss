@@ -1,4 +1,5 @@
-$heightNav: 100px;
+$heightNav: 10rem;
+$heightSmallerNav: 7.5rem;
 
 .nav {
   display: flex;
@@ -10,18 +11,18 @@ $heightNav: 100px;
   right: 0;
   height: $heightNav;
   @include maxWidth;
-  @include padding(20, 120);
+  @include padding(10, 120);
   transition: all 0.3s ease;
-  z-index: 2;
+  z-index: 3;
 
   &--change-on-scroll {
     background-color: $color-blue-dark;
-    height: calc(#{$heightNav} - 25px);
+    height: $heightSmallerNav;
+    box-shadow: inset 0px -4px 7px 0px rgba(0, 0, 0, 0.4);
   }
 
   &__img-box {
     height: 80px;
-    background-image: url('./assets/img/nav.png');
     background-position: top left;
     position: fixed;
     top: calc(#{$heightNav} - 25px);
@@ -53,7 +54,7 @@ $heightNav: 100px;
     align-items: center;
     list-style: none;
 
-    @media (max-width: 1350px) {
+    @media (max-width: $middle-screen) {
       position: fixed;
       flex-direction: column;
       justify-content: center;
@@ -61,7 +62,7 @@ $heightNav: 100px;
       left: 100%;
       height: 100vh;
       width: 100%;
-      @include backgroundShadow(0, 1);
+      background-color: #000;
       transition: .3s ease;
       z-index: 1;
     }
@@ -74,8 +75,8 @@ $heightNav: 100px;
 
 .hamburger {
   display: none;
-  width: 30px;
-  margin-top: 20px;
+  width: 3rem;
+  margin-top: 5px;
   cursor: pointer;
   z-index: 3;
 
@@ -83,7 +84,7 @@ $heightNav: 100px;
     width: 100%;
   }
 
-  @media (max-width: 1350px) {
+  @media (max-width: $middle-screen) {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,7 +92,7 @@ $heightNav: 100px;
   }
 
   &--close {
-    height: 30px;
+    height: 3rem;
     transform: rotate(135deg);
     transition: all .3s ease;
   }
@@ -101,6 +102,7 @@ $heightNav: 100px;
     height: 2px;
     margin-bottom: 5px;
     background-color: $color-white-main;
+    box-shadow: $box-shadow;
     transition: width .2s ease-in, opacity .1s ease-in, transform .3s ease;
 
     &:last-child {

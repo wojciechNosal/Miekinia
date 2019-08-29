@@ -22,7 +22,7 @@ textarea {
   }
 
   &:not(:placeholder-shown) + label {
-     top: -22px;
+     top: -20px;
      font-size: 1.2rem;
   }
 
@@ -31,7 +31,7 @@ textarea {
   }
 
   &:focus + label {
-     top: -22px;
+     top: -20px;
      font-size: 1.2rem;
   }
 
