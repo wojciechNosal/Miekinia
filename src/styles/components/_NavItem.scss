@@ -1,10 +1,8 @@
-
-
 .nav__item {
   padding: 5px;
 
   @media (max-width: 1350px) {
-    margin-bottom: 15px;
+    // margin-bottom: 15px;
     opacity: 0;
   }
 
@@ -23,7 +21,7 @@
   color: lighten($color-white-main, 20%);
   text-shadow: $text-shadow;
   text-transform: uppercase;
-  transition:  0.3s ease;
+  transition: 0.3s ease;
 
   @media (max-width:1350px) {
     font-size: 2rem;
@@ -47,14 +45,14 @@
       top: 36px;
     }
   }
-  
-    &:hover,
-    &.active {
-      transform: translateY(-5px);
 
-      &::before {
-        transform: translateY(8px);
-        opacity: 1;
-      }
+  &:hover,
+  &.active {
+    transform: translateY(-5px);
+
+    &::before {
+      transform: translateY(8px);
+      opacity: 1;
     }
+  }
 }
